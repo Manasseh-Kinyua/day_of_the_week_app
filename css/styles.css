@@ -1,0 +1,14 @@
+.container {
+  width: 90%;
+  margin: auto;
+  background-color: aqua;
+}
+
+.form {
+  width: 60%;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  padding: 80px;
+  display: block;
+}
