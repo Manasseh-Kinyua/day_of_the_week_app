@@ -1,14 +1,27 @@
 .container {
   width: 90%;
   margin: auto;
-  background-color: aqua;
+  background-color: rgb(126, 133, 133);
 }
 
 .form {
   width: 60%;
-  text-align: center;
-  background-color: black;
+  margin: auto;
+  background-color: rgb(139, 130, 130);
   color: aliceblue;
   padding: 80px;
   display: block;
+}
+
+.form .form_thing {
+  padding-bottom: 30px;
+}
+
+.form label {
+  display: block;
+}
+
+.form input {
+  width: 100%;
+  padding: 8px;
 }
