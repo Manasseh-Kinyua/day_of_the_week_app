@@ -4,6 +4,13 @@
   background-color: rgb(126, 133, 133);
 }
 
+h1 {
+  text-align: center;
+  padding: 12px 0;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
 .form {
   width: 60%;
   margin: auto;
@@ -14,7 +21,7 @@
 }
 
 .form .form_thing {
-  padding-bottom: 30px;
+  padding-bottom: 8px;
 }
 
 .form label {
@@ -24,4 +31,9 @@
 .form input {
   width: 100%;
   padding: 8px;
+}
+
+#gender {
+  padding: 10px 0;
+  width: 50%;
 }

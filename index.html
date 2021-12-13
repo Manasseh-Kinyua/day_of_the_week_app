@@ -5,8 +5,9 @@
         <link rel="stylesheet" href="css/styles.css" type="text/css">
 
     </head>
-    <body class="container">
-        <div>
+    <body>
+        <div class="container">
+            <h1>Give us your Birthday and we will tell you the exact day of the week you were born</h1>
             <form class="form">
 
                 <div class="form_thing">
@@ -20,23 +21,36 @@
                 </div>>
 
                 <div class="form_thing">
-                    <label>Birthday</label>
-                    <input type="date" name="birthday">
-                </div>>
+                    <label for="year" >Year of Birth:</label>
+                    <input type="number" name="year" id="year" required>
+                  </div>
 
-                <div class="form_thing">
-                <label>Gender</label>
-                    <select name="gender" id="gender">
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="other">Other</option>
-                    </select>
+                  <div class="form_thing">
+                    <label for="month">Month of Birth:</label>
+                    <input type="number" name="month" id="month" min="1" max="12">
+                  </div>
+
+                  <div class="form_thing">
+                    <label for="date">Date of Birth:</label>
+                    <input type="number" name="date" id="date" min="1" max="31">
+                  </div>
+
+                  <div class="form_thing">
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="gender">Female</label>
+                  </div>
+                  <div class="form_thing">
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="gender">Male</label>
+                  </div>
             
-                <div class="form_thing">
-                <input type="submit" name="submit" value="Submit">
-                </div>>
-                                
+                <div class="form_thing" style="text-align: center;">
+                <input type="submit" name="submit" value="Submit" style="width:15%; padding: 10px 0; margin-top: 10px;">
+                </div>>            
             </form>
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum fugit sequi illo quod, ipsum ratione eos quae aperiam amet quaerat, aut quis quisquam dignissimos blanditiis excepturi numquam! Delectus, quisquam facere? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam saepe quisquam hic, porro magnam commodi, sint reprehenderit odio deserunt dolores quas rerum, consequatur corrupti iure veniam eligendi non? Aliquam, blanditiis.</p>
+            </div>
          </div>>
     </body>
 </html>
