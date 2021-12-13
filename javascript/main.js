@@ -25,15 +25,15 @@ if(gender==='male' && dayOfTheWeek===1) {
     alert('Your Akan name is ' + maleAkanName['0'])
   }else if(gender==='male' && dayOfTheWeek===2) {
     alert('Your Akan name is ' + maleAkanName['1'])
-  }if(gender==='male' && dayOfTheWeek===3) {
+  }else if(gender==='male' && dayOfTheWeek===3) {
     alert('Your Akan name is ' + maleAkanName['2'])
-  }if(gender==='male' && dayOfTheWeek===4) {
+  }else if(gender==='male' && dayOfTheWeek===4) {
     alert('Your Akan name is ' + maleAkanName['3'])
-  }if(gender==='male' && dayOfTheWeek===5) {
+  }else if(gender==='male' && dayOfTheWeek===5) {
     alert('Your Akan name is ' + maleAkanName['4'])
-  }if(gender==='male' && dayOfTheWeek===6) {
+  }else if(gender==='male' && dayOfTheWeek===6) {
     alert('Your Akan name is ' + maleAkanName['5'])
-  }if(gender==='male' && dayOfTheWeek===7) {
+  }else if(gender==='male' && dayOfTheWeek===7) {
     alert('Your Akan name is ' + maleAkanName['6'])
   }
 
