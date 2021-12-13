@@ -7,16 +7,20 @@ var month = parseInt(document.getElementById('month').value);
 var date = parseInt(document.getElementById('date').value);
 var gender = document.querySelector('input[name = gender] : checked').value;
 
+// create variables to store the formula values
 let cc = year.substring(0, 2);
 let yy = year.substring(2, 3);
 let mm = month;
 let dd = date;
 
+// add the formula for calculating day of the week a person was born
 let dayOfTHeWeek =  ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )% 7;
 
+//add two arrays to store the male and female akan names
 let maleAkanName = ['Kwasi', 'Kwadwo', 'Kwabena','Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 let femaleAkanName = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
 
+// conditional statements for the male akan names
 if(gender==='male' && dayOfTheWeek===1) {
     alert('Your Akan name is ' + maleAkanName['0'])
   }else if(gender==='male' && dayOfTheWeek===2) {
@@ -33,6 +37,7 @@ if(gender==='male' && dayOfTheWeek===1) {
     alert('Your Akan name is ' + maleAkanName['6'])
   }
 
+  // conditional statemensts for the female akan names
 if(gender==='female' && dayOfTheWeek===1) {
     alert('Your Akan name is ' + femaleAkanName['0'])
   }else if(gender==='female' && dayOfTheWeek==2) {
