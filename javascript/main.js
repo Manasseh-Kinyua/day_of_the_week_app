@@ -1,3 +1,5 @@
+document.getElementById('form').addEventListener('submit'. collectData);
+
 function myButton(event) {
     event.preventDefault()
 }
@@ -14,7 +16,7 @@ let mm = month;
 let dd = date;
 
 // add the formula for calculating day of the week a person was born
-let dayOfTHeWeek =  ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )% 7;
+let dayOfTheWeek =  ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )% 7;
 
 //add two arrays to store the male and female akan names
 let maleAkanName = ['Kwasi', 'Kwadwo', 'Kwabena','Kwaku', 'Yaw', 'Kofi', 'Kwame'];
@@ -53,4 +55,3 @@ if(gender==='female' && dayOfTheWeek===1) {
   }else if(gender==='female' && dayOfTheWeek==7) {
     alert('Your Akan name is ' + femaleAkanName['6'])
   }
-}
