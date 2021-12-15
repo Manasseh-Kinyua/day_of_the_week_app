@@ -11,7 +11,7 @@ h1 {
   color: aliceblue;
 }
 
-.form {
+#form {
   width: 60%;
   margin: auto;
   background-color: rgb(139, 130, 130);
@@ -20,15 +20,15 @@ h1 {
   display: block;
 }
 
-.form .form_thing {
+#form .form_thing {
   padding-bottom: 8px;
 }
 
-.form label {
+#form label {
   display: block;
 }
 
-.form input {
+#form input {
   width: 100%;
   padding: 8px;
 }
